@@ -1,0 +1,188 @@
+*{
+  font-family: "黑體-繁","微軟正黑體","Helvetica", "Arial";
+
+}
+body{
+  width:100%;
+  height: 100%;
+}
+#header{
+   background-color: black;
+   position:fixed;
+   margin:0px 0px 5px 0px;
+   text-align:center;
+
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+
+   width:100%
+
+}
+
+.linkbox{
+  margin:5px;
+  
+  
+  
+}
+p{
+  width:280px;
+  height:230px;
+  padding:5px;
+  margin:7px;
+  Background-color:white;
+  display: flex;
+justify-content: center; 
+    align-items: center;
+}
+.activity_pic_pic{
+  max-width:280px;
+  max-height:230px;
+
+}
+.links{
+  font-size:20px;
+  line-height:3px;
+}
+
+.activity-item{
+  margin:0;
+  margin-left:35px;
+  font-size:15px;
+  line-height:25px;
+}
+.activity-block{
+  margin:10px;
+}
+.work-block{
+  margin:10px 0px 0px 60px;
+}
+.name-block{
+  margin:10px 55px 0px ;
+}
+.pic-block{
+ margin:10px 20px 0px 10px;
+}
+.mem-pic{
+Width:140px;
+Height:140px;
+}
+.all_block{
+  margin:10px;
+  display:flex ;
+  flex-wrap:wrap;
+  flex-direction: row;
+  
+}
+.all_block2{
+  margin:10px;
+  display:flex ;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content:center;
+  
+}
+
+h1 {
+  color:white;
+  font-size:25;
+
+}
+
+.more_1{
+  background-color: black;
+  color:white;
+  font-size:23px;
+  border:0px;
+  cursor:pointer;
+  height:48px;
+	
+}
+
+.dropdown {
+   
+  display: inline-block;
+}
+
+.dropbtn{
+  background-color: black;
+  color:white;
+  font-size:23px;
+  border:0px;
+  height:48px;
+
+
+}
+
+.dropdown-content {
+  padding:5px;
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a{
+  margin:2px;
+  font-size:15px;
+  text-decoration:none;
+  color:black;
+  color:black;
+  line-height:25px;
+  
+}
+
+.main{
+  background-color:gray;
+  background-image:url('b222.png');
+  
+  width:100%;
+  height:100%;  
+   background-size: cover;
+  
+}
+
+.downlink{
+ display:flex;
+color:white;
+}
+.bottom{
+  background-color:#6CA6CD;
+    background-image:url('b5.jpg');
+ background-size: 100% auto;
+background-repeat: no-repeat;
+
+  
+}
+
+h3{
+  font-size:16px;
+  margin:0 0px 0 81px;
+}
+h4{
+  font-size:16px;
+  margin:0 0px 0 45px;
+}
+.h-title2{
+  display: inline-block;
+  font-size:30px;
+  line-height:0px;
+}
+.h-title{
+  font-size:30px;
+  height:0px;
+}
+.h-nontitle{
+
+  font-size:20px;
+  line-height:0px;
+}
+
+
+
+
